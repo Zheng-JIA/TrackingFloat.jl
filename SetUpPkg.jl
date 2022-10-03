@@ -11,6 +11,7 @@ t = Template(;user="Zheng-JIA",
 t("TrackingFloats")
 
 # if the manifest doesn't have anything, then using test will pop up error. Pkg.resolve() will help resolve the issues.
+# Don't give package or github repo the same name as the struct name, such as TrackingFloat.jl and struct TrackingFloat because it will cause problems
 
 # How to create a package
 # 1. Create a github repo.
