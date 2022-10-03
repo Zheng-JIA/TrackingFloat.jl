@@ -1,0 +1,13 @@
+name = "TrackingFloats"
+uuid = "42463b53-f94d-437a-af09-4f1776b5c9b9"
+authors = ["Zheng Jia <zheng.jia@control.lth.se> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
