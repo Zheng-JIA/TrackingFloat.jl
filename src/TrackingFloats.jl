@@ -2,7 +2,7 @@ module TrackingFloats
 
 export TrackingFloat, getmax, value
 
-import Base: +, *, -, /
+import Base: +, *, -, /, <, sqrt
 using LinearAlgebra
 
 struct TrackingFloat <: AbstractFloat # why need <: AbstractFloat ?? why after adding {Float64}, struct returns Int64?
